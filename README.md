@@ -1,6 +1,5 @@
 Biogas Production Forecast App (Streamlit)
 
-Overview
 This project is a Streamlit web app that trains an XGBoost regression model on historical plant data to forecast biogas production for the next 24–72 hours. It provides interactive controls to tweak model hyperparameters, optionally override exogenous drivers, visualize forecasts with confidence bands, and download results.
 
 Repository contents
@@ -119,6 +118,7 @@ streamlit run streamlit_app.py
 Notes
 - The app caches CSV loading (`@st.cache_data`) for faster reloads when tweaking settings.
 - Forecast download is available via the Download button as `forecast.csv`.
+
 
 
 
